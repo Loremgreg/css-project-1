@@ -28,8 +28,9 @@ body {
     background-color: #E9ECFF;
     display: flex;
     /* justify-content: center; */
-    align-items: flex-start;
+    /* align-items: flex-start; */
     /* aligne le contenu verticalement vers le bas */
+    flex-direction: row;
 
 
 
@@ -49,8 +50,8 @@ body {
     width: 386px;
     height: 82px;
     margin-left: 40px;
-
-
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -59,6 +60,10 @@ h2 {
     height: 82px; */
     font-size: 40px;
 
+}
+
+#Body-contain {
+    margin-top: 100px;
 }
 
 #button {
@@ -76,12 +81,37 @@ h2 {
     background-color: #E9ECFF;
     display: flex;
     /* justify-content: center; */
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+
+
+
+
+}
+
+#Guided-by-card {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #ccc;
+
+}
+
+.Section p {
+    margin-top: 230px;
+}
+
+#Dynamic-gym-card {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #ccc;
+
 
 }
 
 #img-section {
 
-    width: 854px;
+    width: 1460px;
     height: 480px;
     object-fit: cover;
     /* display: flex; */
