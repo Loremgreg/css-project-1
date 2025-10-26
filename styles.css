@@ -54,7 +54,7 @@ body {
 
 }
 
-#Text-panel h2 {
+h2 {
     /* width: 386px;
     height: 82px; */
     font-size: 40px;
@@ -70,4 +70,19 @@ body {
 #button:hover {
     background-color: #5f6be0;
     color: #fff;
+}
+
+.Section {
+    background-color: #E9ECFF;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+#img-section {
+
+    width: 854px;
+    height: 480px;
+    object-fit: cover;
+    /* display: flex; */
 }
